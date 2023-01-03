@@ -68,6 +68,7 @@ Group=root
 Type=simple
 Restart=always
 RestartSec=5
+WorkingDirectory=/root/keypair-utill/blockchain
 ExecStart=/bin/bash start.sh
 [Install]
 WantedBy=default.target
