@@ -68,7 +68,7 @@ Group=root
 Type=simple
 Restart=always
 RestartSec=5
-ExecStart=geth --config /home/root/keypair-util/blockchain/config.toml --datadir /home/root/.ethereum/ --mine --allow-insecure-unlock --unlock 0xxxxxxxxxxxxxxxxxxxxxxxxxxxx --password /home/root/keypair-utils/blockchain/password.txt --nat extip:[ip address]
+ExecStart=/bin/bash start.sh
 [Install]
 WantedBy=default.target
 ```
